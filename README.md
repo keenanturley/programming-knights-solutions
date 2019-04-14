@@ -1,5 +1,13 @@
 # Programming Knights Solutions
 
+### Warning
+
+This is a WIP: I will be adding my solutions as I complete them.
+
+Feel free to point out errors.
+
+## Info
+
 This repo contains my solutions to the practice problems contained in the book **Programming Knights** by *Arup Guha*.
 
 ISBN-10: 1256927635
