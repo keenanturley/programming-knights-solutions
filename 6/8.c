@@ -42,6 +42,7 @@ int main(void)
 
     /* Calculate max pictures on thumb drive */
     /* NOTE: Partial image is truncated thanks to integer division */
+    /* NOTE: num_gigabytes must be cast to long to prevent integer overflow */
     max_pictures = ((long)num_gigabytes * BYTES_PER_GIGABYTE) / 
                    (width * height * BYTES_PER_PIXEL);
 
