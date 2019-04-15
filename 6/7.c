@@ -2,7 +2,7 @@
 Name: Keenan Turley
 Date (YMD): 2019-04-15
 
-Practice Problem:
+Practice Problem 6.7:
     Write a program that calculates the cost of buying season football tickets. 
     
     Ask the user for the number of upper bowl tickets (these are $25 per game) 
