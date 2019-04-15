@@ -1,6 +1,6 @@
 /*
 Name: Keenan Turley
-Date (YMD): 2019-01-14
+Date (YMD): 2019-04-15
 
 Practice Problem 6.6:
     Imagine a two-way straight railway and two trains approaching each other 
