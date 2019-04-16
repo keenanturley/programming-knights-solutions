@@ -1,27 +1,27 @@
-/* 
+/*
 Name: Keenan Turley
 Date (YMD): 2019-04-14
 
 Practice Problem 6.5:
-    Write a program to guesstimate the total number of jelly beans in a right 
-    circular cylinder. 
-    
-    In particular, the user must enter both the radius and the height of the 
-    cylinder, as well as the radius of the jellybean (we'll assume it's a 
-    sphere). 
-    
-    For simplicity's sake, assume that the amount of volume a single jellybean 
-    takes up is simply the volume of the cube it would fit into. 
+    Write a program to guesstimate the total number of jelly beans in a right
+    circular cylinder.
 
-    (Thus, if the radius of a jellybean is 2 units, then the total volume it 
+    In particular, the user must enter both the radius and the height of the
+    cylinder, as well as the radius of the jellybean (we'll assume it's a
+    sphere).
+
+    For simplicity's sake, assume that the amount of volume a single jellybean
+    takes up is simply the volume of the cube it would fit into.
+
+    (Thus, if the radius of a jellybean is 2 units, then the total volume it
     takes up in the jar is 8 cubic units.)
 
-    You should output a guess as to how many jellybeans are in the jar. 
-    
-    Your guess need not be an integer. 
+    You should output a guess as to how many jellybeans are in the jar.
 
-    (If you want to enhance the program you may output the nearest integer to 
-    the actual value.) 
+    Your guess need not be an integer.
+
+    (If you want to enhance the program you may output the nearest integer to
+    the actual value.)
 
 Personal Note:
     The problem says that a sphere with radius 2 would take up 8 cubic units

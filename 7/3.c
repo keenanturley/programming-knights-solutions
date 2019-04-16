@@ -3,10 +3,10 @@ Name: Keenan Turley
 Date (YMD): 2019-04-15
 
 Practice Problem 7.3:
-    Write a program that prompts the user for 2 pieces of information: 
-    (1) age, (2) amt. of cash they have. 
-    
-    Based upon these inputs, your program should produce one of the four 
+    Write a program that prompts the user for 2 pieces of information:
+    (1) age, (2) amt. of cash they have.
+
+    Based upon these inputs, your program should produce one of the four
     outputs below for the given situations:
 
     -------------------------------------------------------------------------
@@ -53,6 +53,6 @@ int main(void)
         else if (cash >= 100)
             printf("You are right on track.\n");
     }
-    
+
     return 0;
 }

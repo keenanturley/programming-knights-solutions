@@ -3,14 +3,14 @@ Name: Keenan Turley
 Date (YMD): 2019-01-14
 
 Practice Problem 6.1:
-    Write a program that prompts the user for the area of a circle and 
+    Write a program that prompts the user for the area of a circle and
     calculates the radius of that circle and prints it out.
 */
 
 #include <stdio.h>
 #include <math.h>
 
-int main() 
+int main()
 {
     // Define area variable to hold input
     float area;

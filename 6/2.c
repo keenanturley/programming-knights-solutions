@@ -3,17 +3,17 @@ Name: Keenan Turley
 Date (YMD): 2019-01-15
 
 Practice Problem 6.2:
-    Write a program that prompts the user to enter two points on the Cartesian plane 
-    with different x coordinates and calculate and output the slope between the two 
-    points. 
-    
+    Write a program that prompts the user to enter two points on the Cartesian plane
+    with different x coordinates and calculate and output the slope between the two
+    points.
+
     You may assume that the two points entered have different x coordinates.
 */
 
 #include <stdio.h>
 #include <math.h>
 
-int main() 
+int main()
 {
     // Declare doubles for given points
     double x1, y1, x2, y2;

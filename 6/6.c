@@ -3,24 +3,24 @@ Name: Keenan Turley
 Date (YMD): 2019-04-15
 
 Practice Problem 6.6:
-    Imagine a two-way straight railway and two trains approaching each other 
-    from opposite directions. 
-    
-    You need to compute how long (in minutes) would it take for these trains 
-    to come side by side. 
-    
+    Imagine a two-way straight railway and two trains approaching each other
+    from opposite directions.
+
+    You need to compute how long (in minutes) would it take for these trains
+    to come side by side.
+
     You will also compute how many miles each train travels till then.
-    
-    Write a program to read in the distance (in miles), speeds of the trains 
-    (in miles per hour), and output the time to meet (in minutes) and the 
-    distance traveled by each train (in miles). 
+
+    Write a program to read in the distance (in miles), speeds of the trains
+    (in miles per hour), and output the time to meet (in minutes) and the
+    distance traveled by each train (in miles).
 */
 
 #include <stdio.h>
 
 int main(void)
 {
-    float distance_between; 
+    float distance_between;
     float speed1, speed2, distance1, distance2;
     float time_to_meet;
 

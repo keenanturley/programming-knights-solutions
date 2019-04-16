@@ -3,13 +3,13 @@ Name: Keenan Turley
 Date (YMD): 2019-04-15
 
 Practice Problem 6.7:
-    Write a program that calculates the cost of buying season football tickets. 
-    
-    Ask the user for the number of upper bowl tickets (these are $25 per game) 
-    and lower bowl tickets (these are $50 per game) they desire, followed by 
-    the number of games in the season and the sales tax, entered as a 
-    percentage. 
-    
+    Write a program that calculates the cost of buying season football tickets.
+
+    Ask the user for the number of upper bowl tickets (these are $25 per game)
+    and lower bowl tickets (these are $50 per game) they desire, followed by
+    the number of games in the season and the sales tax, entered as a
+    percentage.
+
     Output the total cost of all the tickets, including tax.
 */
 
@@ -38,8 +38,8 @@ int main(void)
     scanf("%f", &tax);
 
     /* Calculate total cost of tickets, including tax */
-    total_cost = ((upper_tickets * UPPER_TICKET_COST) + 
-                 (lower_tickets * LOWER_TICKET_COST)) * 
+    total_cost = ((upper_tickets * UPPER_TICKET_COST) +
+                 (lower_tickets * LOWER_TICKET_COST)) *
                  num_games * (1 + (tax / 100));
 
     /* Output total cost */

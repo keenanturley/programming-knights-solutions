@@ -3,19 +3,19 @@ Name: Keenan Turley
 Date (YMD): 2019-04-15
 
 Practice Problem 7.1:
-    Write a program that does temperature conversion from either Fahrenheit to 
-    Celsius, or the other way around. 
-    
-    Your program should first prompt the user for which type of conversion they 
-    want to do. 
-    
-    Then your program should prompt the user for the temperature they want to 
+    Write a program that does temperature conversion from either Fahrenheit to
+    Celsius, or the other way around.
+
+    Your program should first prompt the user for which type of conversion they
+    want to do.
+
+    Then your program should prompt the user for the temperature they want to
     convert.
 
-    Finally, your program should output the proper converted temperature. 
-    
+    Finally, your program should output the proper converted temperature.
+
     The formula for conversion from Celsius to Fahrenheit is:
-    
+
     F = 1.8*C + 32
 */
 

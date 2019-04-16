@@ -4,13 +4,13 @@ Date (YMD): 2019-01-14
 
 Practice Problem 6.3:
     Write a program that asks the user for their hourly pay, the number of hours
-    they work in a week, and the number of weeks they are working in the 
+    they work in a week, and the number of weeks they are working in the
     summer, as well as the cost of a single video game.
 
-    Output the total number of video games they could buy, if they spent all of 
+    Output the total number of video games they could buy, if they spent all of
     their earnings on video games, as well as the leftover money they would have.
 
-    (The latter value must be strictly less than the cost of a game.) 
+    (The latter value must be strictly less than the cost of a game.)
 
     Assume all inputs are positive integers.
 */
@@ -18,7 +18,7 @@ Practice Problem 6.3:
 #include <stdio.h>
 #include <math.h>
 
-int main() 
+int main()
 {
     // Define required variables
     float hourly_pay, game_cost;
@@ -38,7 +38,7 @@ int main()
     scanf("%f", &game_cost);
 
     // Calculate total pay
-    float pay = hourly_pay * hours_worked_weekly * weeks_worked; 
+    float pay = hourly_pay * hours_worked_weekly * weeks_worked;
 
     // Calculate possible number of games bought
     int games = pay / game_cost;

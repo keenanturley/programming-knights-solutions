@@ -3,12 +3,12 @@ Name: Keenan Turley
 Date (YMD): 2019-04-15
 
 Practice Problem 6.10:
-    Write a program that prompts the user to enter the coefficients a, b and c 
-    from the quadratic equation ax^2 + bx + c = 0, and calculates the two real 
-    roots of the equation. 
-    
-    You may assume that the user enters values of a, b and c that lead to the 
-    equation having two distinct real roots, namely, the user will enter values 
+    Write a program that prompts the user to enter the coefficients a, b and c
+    from the quadratic equation ax^2 + bx + c = 0, and calculates the two real
+    roots of the equation.
+
+    You may assume that the user enters values of a, b and c that lead to the
+    equation having two distinct real roots, namely, the user will enter values
     such that b^2 > 4ac, and a will not equal 0.
 */
 
